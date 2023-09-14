@@ -3,18 +3,7 @@
         <div>
             <a href="{{ .Site.BaseURL }}">
                 <span class="terminal">{{ .Site.Params.user }}@{{ .Site.Params.hostname }} {{ .Site.Params.homedir }} $</span>
-                <span style="
-                   background-color:#ffffff;
-                   display: inline-block;
-                      width: 10px;
-                      height: 1rem;
-                      background: #fdfdff;
-                        background-color: rgb(253, 253, 255);
-                      margin-left: 5px;
-                      border-radius: 1px;
-                      animation: cursor 1s infinite;
-                   ">
-            </span>
+                <span class="cursor"></span>
             </a>
         </div>
         <input class="side-menu" type="checkbox" id="side-menu">

@@ -40,6 +40,16 @@
   text-decoration: none;
 }
 
+.cursor {
+    display: inline-block;
+    width: 10px;
+    height: 1rem;
+    background: $white;
+    margin-bottom: -3px;
+    border-radius: 1px;
+    animation: cursor_blink 1s infinite;
+}
+
 .hamb {
   cursor: pointer;
   float: right;
@@ -117,4 +127,10 @@
   .hamb {
     display: block;
   }
+}
+
+@keyframes cursor_blink {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
 }
