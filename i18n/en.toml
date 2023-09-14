@@ -1,11 +1,11 @@
 [not_found]
-    other = "NOT FOUND"
+    other = "NOT MOUNTED"
 
 [not_found_desc]
-    other = "You just hit a route that doesn't exist..."
+    other = "nothing is mounted here"
 
 [home]
-    other = "Home"
+    other = "root"
 
 [published]
     other = "published"
