@@ -50,3 +50,17 @@ a:hover,
 a:active{
   text-decoration: none;
 }
+
+.postImage {
+  filter: brightness(30%);
+}
+
+.postImage:hover {
+  filter: brightness(50%);
+  transition: filter 0.5s;
+}
+
+.postImage:active {
+  filter: brightness(80%);
+  transition: filter 1s;
+}
